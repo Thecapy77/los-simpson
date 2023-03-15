@@ -5,11 +5,11 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: black;
+    background-color: rgb(247, 247, 123);
     background-position: center;
 }
 
-.cajahomero{
-    background-color: yellow;
-    background-image: url(../imagenes/homerito.webp);
+.ciga{
+    
 }
+
