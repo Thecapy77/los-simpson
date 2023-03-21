@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="INICIO">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img src="imagenes/The_Simpsons_yellow_logo.svg" width="80"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -30,6 +30,9 @@
             <li><a class="dropdown-item" href="#MARGE">MARGE</a></li>
             <li><a class="dropdown-item" href="#BARTYLISA">BART Y LISA</a></li>
             <li><a class="dropdown-item" href="#MAGGIE">MAGGIE</a></li>
+            <audio controls>
+              <source src="audio/audio simpson_mezcla.wav"
+            </audio>
           </ul>
       </div>
       </a>
@@ -50,6 +53,11 @@
     </div>
     </div>
   </nav>
+
+
+
+
+
 
 
 
@@ -87,9 +95,8 @@
     </div>
     <div class="col-xl-6">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/HPeIPK0IBPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <button class="btn btn-primary me-md-2" type="button">atras</button>
-        <button class="btn btn-primary" type="button">adelante</button>
+      <div class="  btn-group">
+        <a href="#MARGE" class="btn btn-primary uno">MARGE</a>
       </div>
     </div>
   </div>
@@ -99,9 +106,9 @@
   <div class="row ciga">
     <div class="col-xl-6">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zuARTqmG3ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-primary" type="button">atras</button>
-        <button class="btn btn-primary" type="button">adelante</button>
+      <div class="btn-group">
+        <a href="#HOMERO" class="btn btn-primary uno">HOMERO</a>
+        <a href="#BARTYLISA" class="btn btn-primary uno">BART Y LISA</a>
       </div>
     </div>
     <div class="col-xl-6">
@@ -136,15 +143,24 @@
       </div>
       <div class="col-xl-6">
         <h3>Margaret Simpson, conocida como Maggie Simpson, es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson.</h3>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn btn-primary me-md-2" type="button">atras</button>
-          <button class="btn btn-primary" type="button">adelante</button>
+        <div class="btn-group">
+          <a href="#INICIO" class="btn btn-primary uno">INICIO</a>
         </div>
       </div>
     </div>
     <footer>
       <iframe width="100%" src="https://www.youtube.com/embed/9yN6_8ut5FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </footer>
+
+    <div class="row">
+      <div class="col-xl-6">
+        <img src="imagenes/logo.png"> 
+     </div>
+     <div class="col-xl-6">
+        <img src="imagenes/insta.png" width="10%" height="25%"> 
+        <img src="imagenes/faceee.png" width="12%" height="30%"> 
+        <img src="imagenes/twiter.png" width="10%" height="30%"> 
+    </div>
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
